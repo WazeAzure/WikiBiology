@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/WikiBiology/static/css/main.5212fe56.css",
+    "main.js": "/WikiBiology/static/js/main.1e2ce771.js",
+    "static/js/787.a3a31ebb.chunk.js": "/WikiBiology/static/js/787.a3a31ebb.chunk.js",
+    "static/media/respiration_cellular.jpg": "/WikiBiology/static/media/respiration_cellular.a4fd5dfc46f1fbc88996.jpg",
+    "static/media/lmao.png": "/WikiBiology/static/media/lmao.60c4231b7bf8ac888d57.png",
+    "static/media/logo.svg": "/WikiBiology/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/WikiBiology/index.html",
+    "main.5212fe56.css.map": "/WikiBiology/static/css/main.5212fe56.css.map",
+    "main.1e2ce771.js.map": "/WikiBiology/static/js/main.1e2ce771.js.map",
+    "787.a3a31ebb.chunk.js.map": "/WikiBiology/static/js/787.a3a31ebb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5212fe56.css",
+    "static/js/main.1e2ce771.js"
+  ]
+}
