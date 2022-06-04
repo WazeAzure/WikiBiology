@@ -1,0 +1,21 @@
+.person-card {
+  border-radius: 1rem;
+  border: solid 0.2rem rgba(18,235,144,1);
+  padding: 0.5rem 1rem;
+  max-width: 16rem;
+  font-size: 2rem;
+  margin: 1rem 0.5rem;
+}
+
+.person-card img{
+  max-width: 10rem;
+}
+
+.person-icons {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  text-decoration: none;
+  color: rgba(18,235,144,1);
+}

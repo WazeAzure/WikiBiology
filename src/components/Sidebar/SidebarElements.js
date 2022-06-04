@@ -10,6 +10,9 @@ export const Nav = styled.div`
   align-items: left;
   flex-direction: column;
   position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
 `
 
 export const NavIcon = styled(Link)`

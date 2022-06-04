@@ -6,9 +6,8 @@ export const Nav = styled.nav`
   height: 80px;
   background: #1D2A35;
   margin: auto;
-  width: 100%;
+  width: 90%;
   display: flex;
-  justify-content: space-between;
   z-index: 10;
 `;
 
@@ -18,15 +17,23 @@ export const NavLink = styled(Link)`
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
-  height 100%;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: underline 1px solid white;
+    transition: all 0.1s ease-in-out;
+  }
 
   &.active {
     {/*color: #15cddc;*/}
-    color: #12eb90
+    color: ${props => props.icon ? "white" : "#12eb90"};
   }
-`;
 
+
+`;
+// 12eb90
 export const Bars = styled(FaBars)`
   display: none;
   color: #fff;
@@ -45,8 +52,7 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin: auto;
-
+  justify-content: start;
   @media screen and (max-width: 768px){
     display: none;
   }
@@ -67,7 +73,7 @@ export const NavBtnLink = styled(Link)`
   background: #12eb90;
   padding: 10px 22px;
   color: #fff;
-  border: none;
+  border: 1px solid #12eb90;
   outline: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -77,6 +83,8 @@ export const NavBtnLink = styled(Link)`
     transition: all 0.2s ease-in-out;
     background: none;
     border: 1px solid #12eb90 ;
-    color: #010606;
+    color: #12eb90;
   }
 `;
+
+// #010606

@@ -1,0 +1,20 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 50% auto;
+  margin: 5rem 0 0 0;
+}
+
+.main-container h1{
+  font-size: 4.5rem;
+  color: rgba(38,50,56, 1);
+  font-weight: bold;
+}
+
+.main-container p {
+  font-size: 1.5rem;
+}
+.main-container img {
+  width: 40rem;
+  max-width: 100%;
+  height: auto;
+}

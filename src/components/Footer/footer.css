@@ -1,0 +1,23 @@
+.footer-container {
+  margin: auto;
+  text-decoration: none;
+  padding: 1rem 0;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icon {
+  font-size: 2rem;
+  color: white;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.footer-icon:hover {
+  color: green;
+  transition: all 0.2s ease-in-out;
+}

@@ -3,7 +3,7 @@
 }
 
 .point-component:hover{
-  color: green;
+  color: rgba(18, 235, 144, 0.6);;
   background: rgba(30, 30, 30, 0.5);
   text-decoration: none;
 }

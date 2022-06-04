@@ -1,6 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { SubChapterData } from './SubChapterData'
+import { SubChapterData } from './SubChapterData';
+import './SubChapter.css';
+import Comment from '../Comment';
 
 function SubChapter(props){
   let { subchapter } = useParams();
@@ -45,10 +47,11 @@ function SubChapter(props){
   })
   console.log(lol)
   return(
-    <div style={{width: "90%", margin:"1rem auto"}}>
+    <div className="material-rendered" style={{width: "90%", margin:"1rem auto", overflow: "auto"}}>
       {
         lol.map((item) => item)
       }
+      <Comment />
     </div>
   )
 }
