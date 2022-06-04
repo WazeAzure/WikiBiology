@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WikiBiology/static/css/main.a78eb769.css",
-    "main.js": "/WikiBiology/static/js/main.94962766.js",
+    "main.css": "/WikiBiology/static/css/main.b6b3c437.css",
+    "main.js": "/WikiBiology/static/js/main.7d75c070.js",
     "static/js/787.a3a31ebb.chunk.js": "/WikiBiology/static/js/787.a3a31ebb.chunk.js",
     "static/media/ed-Copy.png": "/WikiBiology/static/media/ed-Copy.d4666c774e3e412b8bd2.png",
     "static/media/pentingwoi.png": "/WikiBiology/static/media/pentingwoi.62ada0006e7261bd73a4.png",
@@ -14,13 +14,14 @@
     "static/media/ass2.png": "/WikiBiology/static/media/ass2.22d27128a84e199fbe54.png",
     "static/media/ass1.png": "/WikiBiology/static/media/ass1.9e62a8388f693c367559.png",
     "static/media/logo.png": "/WikiBiology/static/media/logo.18cd0bff1cadee2b64f0.png",
+    "static/media/opik.jpg": "/WikiBiology/static/media/opik.8e7ab55da0bc52271ed8.jpg",
     "index.html": "/WikiBiology/index.html",
-    "main.a78eb769.css.map": "/WikiBiology/static/css/main.a78eb769.css.map",
-    "main.94962766.js.map": "/WikiBiology/static/js/main.94962766.js.map",
+    "main.b6b3c437.css.map": "/WikiBiology/static/css/main.b6b3c437.css.map",
+    "main.7d75c070.js.map": "/WikiBiology/static/js/main.7d75c070.js.map",
     "787.a3a31ebb.chunk.js.map": "/WikiBiology/static/js/787.a3a31ebb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a78eb769.css",
-    "static/js/main.94962766.js"
+    "static/css/main.b6b3c437.css",
+    "static/js/main.7d75c070.js"
   ]
 }
