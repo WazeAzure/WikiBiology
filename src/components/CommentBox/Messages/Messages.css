@@ -1,0 +1,49 @@
+.message-container {
+  position: relative;
+  width: 100%;
+  word-wrap: break-word;
+  margin: 20px 0;
+  padding-left: 50px;
+}
+
+.fa-user-circle {
+  position: absolute;
+  font-size: 2.2rem;
+  top: 0;
+  left: 0;
+}
+
+.message-user {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.message-text {
+  font-size: 0.9rem;
+  margin: 5px 0;
+}
+
+.message-icons-container{
+  margin-top: 10px;
+}
+
+.message-icons-container > * {
+  display: inline-block;
+  color: grey;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.arrow-replies {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.arrow-replies > * {
+  color: #4688de;
+  display: inline-block;
+}
+
+.arrow-replies > i {
+  margin-right: 10px;
+}

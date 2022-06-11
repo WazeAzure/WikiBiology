@@ -2,7 +2,10 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { SubChapterData } from './SubChapterData';
 import './SubChapter.css';
-import Comment from '../Comment';
+import TopCommentBox from '../CommentBox/index.js';
+import MessageScroll from '../CommentBox/MessageScroll'
+// Main Context
+import {ContextProvider} from '../../Context/Context';
 
 function SubChapter(props){
   let { subchapter } = useParams();
@@ -47,11 +50,16 @@ function SubChapter(props){
   })
   console.log(lol)
   return(
-    <div className="material-rendered" style={{width: "90%", margin:"1rem auto", overflow: "auto"}}>
+    <div className="material-rendered" style={{width: "90%", margin:"1rem auto"}}>
       {
         lol.map((item) => item)
       }
-      <Comment />
+      <hr />
+      <h2>Comment Section</h2>
+      <ContextProvider>
+        <TopCommentBox />
+        <MessageScroll />
+      </ContextProvider>
     </div>
   )
 }

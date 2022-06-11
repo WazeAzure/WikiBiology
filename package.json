@@ -2,6 +2,7 @@
   "name": "wikibiology",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:5000",
   "homepage": "http://wazeazure.github.io/WikiBiology",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

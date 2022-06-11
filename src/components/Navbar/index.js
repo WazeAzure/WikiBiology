@@ -6,6 +6,7 @@ const Navbar = () => {
   return(
     <div className="header" style={{background: '#1D2A35'}}>
       <Nav>
+      <script src="https://kit.fontawesome.com/668a92c7cd.js" crossorigin="anonymous"></script>
         <NavLink to="/" icon>
           <img src={require('./logo.png')} alt="WikiBiology" width="100rem"/>
           <p style={{fontSize: "2rem", margin: "0 2rem 0 0", lineHeight: "auto"}}>WikiBiology</p>
