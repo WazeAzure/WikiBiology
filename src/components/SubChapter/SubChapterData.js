@@ -247,5 +247,174 @@ export const SubChapterData = [
         ]
       }
     ]
+  },
+  {
+    checkpoint: "reference",
+    val: [
+      {
+        type: "h1",
+        val: ["Reference"]
+      },
+      {
+        type: "a",
+        val: ["bit.ly/ebook-biology"]
+      }
+    ]
+  },
+  {
+    checkpoint: "lab",
+    val: [
+      {
+        type: "h1",
+        val: ["Lab Work"]
+      },
+      {
+        type: "h2",
+        val: ["A.\tOverview"]
+      },
+      {
+        type: "p",
+        val: ["In this experiment you will work with seeds that are living but dormant. A seed contains an embryo plant and a food supply surrounded by a seed coat. When the necessary conditions are met, germination occurs and the rate of cellular respiration greatly increases."]
+      },
+      {
+        type: "h2",
+        val: ["B.\tObjectives"]
+      },
+      {
+        type: "p",
+        val: ["Upon completion of this topic, student should know:"]
+      },
+      {
+        type: "ul",
+        val: ["1.	The role of glucose and ATP in the powering of cellular reactions.", "2.	How germination affect aerobic respiration in bean seeds", "3.	How temperature affects aerobic respiration bean seeds", "4.	How aerobic respiration differs from fermentation"]
+      },
+      {
+        type: "h2",
+        val: ["C.\tMaterials"]
+      },
+      {
+        type: "ul",
+        val: ["50 germinating pea seeds", "50 dry pea seeds", "100 plastic bead", "6 respirometer vials", "Weight for vials", "6 stoppers", "1 ml graduated pipette", "Sealant (Vaseline)", "Absorbent cotton", "Nonabsorbent cotton", "1 Round wood stick", "3 Pieces of paper towel", "Water bath", "Ice", "100 ml graduated cylinder", "Thermometer", "Masking tape", "Stopwatch", "Water", "Dropper bottle of 15% KOH"]
+      },
+      {
+        type: "h2",
+        val: ["D.\tSafetry Consideration"]
+      },
+      {
+        type: "p",
+        val: ["The 15% KOH is caustic, so avoid contact with it."]
+      },
+      {
+        type: "h2",
+        val: ["Procedure"]
+      },
+      {
+        type: "p",
+        val: ["Day 1"]
+      },
+      {
+        type: "ol",
+        val: ["Both a room-temperature bath (approximately 25°C) and a 10°C bath should be set up immediately to allow for time to adjust the temperature of each. (Add ice to attain the 10°C bath.)", "Respirometer 1: Obtain a 100-mL graduated cylinder and fill it with 50 mL of water. Place 25 germinating peas into the graduated cylinder. Measure the amount of water that was displaced (which is equivalent to the volume of the peas) and record this number. Pea Volume =_____mL. This number is the volume of the peas, and will be used to determine the volume of peas and beads in the other respirometers (all volumes should be equal). Remove the peas and place them on a paper towel. These peas will be used in Respirometer 1.", "Respirometer 2: Refill the graduated cylinder until it has 50 mL of water. Place 25 dried peas (they are dormant, and not germinating) into the graduated cylinder and then add enough glass beads to reach a volume equivalent to that of the germinating peas in Respirometer One. Remove the peas and beads and place them on a paper towel. These peas and beads will be used in Respirometer 2.", "Respirometer 3: Refill the graduated cylinder until it has 50 mL of water. Fill it with glass beads alone until the volume is equivalent to the volume of the germinating peas in Respirometer 1. Remove these beads and place them on a paper towel. These beads will be used in Respirometer 3.", "Repeat the above procedures (2-4) to prepare a second set of germinating peas, dry peas + beads, and beads for use in Respirometers 4, 5, and 6, respectively.", "Your group will be assigned to do one of the temperature sets.", "To assemble the respirometers, obtain 3 vials, each with an attached stopper and pipette. Make sure that the vials are dry on the inside. It is important that the amounts of cotton and KOH be the same for each respirometer. Place a small wad of absorbent cotton in the bottom of each vial and, using a dropper, saturate the cotton with 15% KOH. Do not get KOH on the sides of the respirometer. Place a small wad of dry nonabsorbent cotton on top of the KOH-soaked absorbent cotton.", "Place the first set of germinating peas, dry peas + beads, and beads in vials one, two, and three, respectively.", "Place the second set of germinating peas, dry peas + beads, and beads in vials four, five, and six, respectively.", "Insert the nontapered end of one pipet into the upper surface of one of the rubber stoppers. It should fit tightly. Place a layer of sealant around the junction between the pipet and the stopper so that no air can escape. (*The pointy end of the pipet should be outside, not inside)", "Wrap parafilm tightly around each stopper (where it enters the vial and where the pipette is inserted). This is necessary to ensure against any leaks. Any leaks will cause the experiment to fail. Set your apparatus aside for day 2."]
+      },
+      {
+        type: "img",
+        val: [{
+          src: require("./labwork.png"),
+          sub: "Fig of thermometer"
+        }]
+      },
+      {
+        type: "p",
+        val: ["Day 2"]
+      },
+      {
+        type: "ol",
+        val: ["Place a strip of masking tape across the narrow width of the water bath, approximately 2/3 of the way from one end (see diagram).", "Place respirometers 1, 2, and 3 into the room temperature water bath and respirometers 4, 5, and 6 into the cold water so that the pipets rest on the masking tape prop. Begin time for a total of 7 minutes – this is the equilibration period, where your respirometers will become the same temperature as the water. Use a thermometer to determine the water temperature of each bath and record the measurement.", "At the end of 7 minutes, submerge each of the tubes entirely in the water bath. Some water will enter the tip of the pipet, but the influx of water should stop fairly quickly. If it does not stop, check the respirometer for leaks.", "At this point, check to make sure you can read the pipets. The air bubble should extend from the main chamber up the tube of the pipet. The pipet may need to be rotated so that you can see the numbers.If your respirometers float, you may need to weight them. Some come with weights inside and some do not. You can improvise here, stainless steel dissection scissors; for instance, can serve to weight the tubes.", "Record the water level in each pipet onto the data table at the Time Interval 0.", "Record the position of the water in each pipet at the end of 5, 10, and 15, 20 min on Data Table 2."]
+      },
+      {
+        type: "img",
+        val: [{
+          src: require("./respirometer.png"),
+          sub: ""
+        }]
+      },
+      {
+        type: "img",
+        val: [{
+            src: require("./respirometer2.png"),
+            sub: ""
+          }]
+      },
+      {
+        type: "h2",
+        val: ["F.Result"]
+      },
+      {
+        type: "p",
+        val: ["Table 1. Calculation of Volume in Respirometer"]
+      },
+      {
+        type: "img",
+        val: [{
+          src: require("./result.png"),
+          sub: ""
+        }]
+      },
+      {
+        type: "p",
+        val: ["Table 2. Measurement of O2 Consumption by Germinating and Non-Germinating Seeds at Room Temperature and 10 oC using Volumetric Methods."]
+      },
+      {
+        type: "img",
+        val: [{
+          src: require('./measurement.png'),
+          sub: ""
+        }]
+      },
+      {
+        type: "p",
+        val: ["When graphing your data create best fit lines in addition to plotted data to calculate the rate of cellular respiration."]
+      },
+      {
+        type: "h2",
+        val: ["G.\tDiscussion"]
+      },
+      {
+        type: "p",
+        val: ["1. Identify the hypotheses being tested in this activity. Indicate the variable factor(s), the control(s), and the purpose of each control."]
+      },
+      {
+        type: "quiz",
+        val: [
+          {
+            type: "pg",
+            question: "2. In this lab exercise, what is the purpose of the...",
+            val: ["Beads", "KOH", "Making sure the respirometer is completely sealed"]
+          }
+        ]
+      },
+      {
+        type: "p",
+        val: ["3. Explain why the water removed into the respirometers' pipets", "4. Describe and explain the relationship between the amount of Oxygen consumed and time.", "5. Calculate the rate of O 2consumption of the germinating and nongerminating seeds during the experiments at room temperature and at 10°C. Show your calculations for each."]
+      },
+      {
+        type: "img",
+        val: [{
+          src: require('./condition.png'),
+          sub: ""
+        }]
+      },
+      {
+        type: "p",
+        val: ["6. Explain the effect of germination (versus nongermination) on pea seed respiration", "7. If you used the same experimental design to compare the rates of respiration of a 25g reptile and a 25g mammal at 25°C and 10°C, what results would you expect? Be sure to fully explain your reasoning. (It may be helpful to think of a specific reptile/mammal and compare them.)", "8.	To the right is a graph of possible data obtained for oxygen consumption by germinating peas. Assuming that peas begin to dehydrate at a temperature of 45°C, draw in predicted results of respiration through 70°C. Explain your results."]
+      },
+      {
+        type: "img",
+        val: [{
+          src: require("./diagram.png"),
+          sub: ""
+        }]
+      }
+    ]
   }
 ]

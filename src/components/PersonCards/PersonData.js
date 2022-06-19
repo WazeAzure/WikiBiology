@@ -10,8 +10,8 @@ import './PersonCard.css';
 export const PersonData = [
   {
     name: "Opik Prasetyo",
-    quotes: "An Apple A Day Keeps Away the Doctor",
-    avatar: require("./opik.jpg"),
+    quotes: "Hope you enjoy the journey to learn biology with us",
+    avatar: require("./opik2.jpg"),
     sosmed: ['085345871185', 'opikprasetyo@student.uns.ac.id', 'https://id.linkedin.com/in/opik-prasetyo-b36234230/en?trk=people-guest_people_search-card']
   }
 ]
@@ -19,7 +19,7 @@ export const PersonData = [
 export function Person(props){
     return(
       <div className="person-card">
-        <img src={props.item.avatar} width/>
+        <img src={props.item.avatar} width style={{borderRadius: "50%", objectFit: "cover", width: "10rem", height: "10rem"}}/>
         <p style={{fontSize: "1.2rem", fontWeight: "bold"}}>{props.item.name}</p>
         <p style={{fontSize: "1rem", fontWeight: "bold"}}>"{props.item.quotes}"</p>
         <hr />

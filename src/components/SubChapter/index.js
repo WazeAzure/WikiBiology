@@ -23,14 +23,15 @@ function SubChapter(props){
         } else if(item.type == "p"){
           return item.val.map((a, i) => <p>{a}</p>)
         } else if(item.type == "img"){
-          return item.val.map((a, i) => <img src={a.src} alt={a.sub} />)
+          return (item.val.map((a, i) => <img src={a.src} alt={a.sub} />))
         } else if(item.type == "ul"){
           return (<ul>{item.val.map((a, i) => <li>{a}</li>)}</ul>)
-        } else if(item.type == "vid"){
+        } else if(item.type == "ol"){
+          return (<ol>{item.val.map((a, i) => <li>{a}</li>)}</ol>)
+        }else if(item.type == "vid"){
           return item.val;
         }else if(item.type == "quiz"){
           var temp = item.val.map((a, i) => {
-            console.log("ini adalah " + a.question)
             if(a.type == "pg"){
               var text = <p>{a.question}</p>;
               var text2 = <ul>{a.val.map((x, i) => <li>{x}</li>)}</ul>;
@@ -43,6 +44,8 @@ function SubChapter(props){
             }
           })
           return temp;
+        } else if(item.type == "a"){
+          return (item.val.map((a, i) => <a href={"https://" + a} target="_blank">{a}</a>))
         }
       })
       return lol2;

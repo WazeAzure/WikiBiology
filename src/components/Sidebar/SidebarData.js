@@ -6,6 +6,7 @@ import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
 import * as RiIcons from 'react-icons/ri';
+import * as MdIcons from 'react-icons/md';
 
 export const SidebarData = [
   {
@@ -107,8 +108,36 @@ export const SidebarData = [
     ]
   },
   {
+    title: 'Lab Work',
+    path: 'lab',
+    icon: <MdIcons.MdOutlineScience />,
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
+    subNav: [
+      {
+        title: 'quiz 1',
+        path: 'tok/quiz_1',
+        icon: <AiIcons.AiFillHome />
+      }
+    ]
+  },
+  {
     title: 'Assessment',
     path: 'assessment',
+    icon: <IoIcons.IoIosPaper />,
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
+    subNav: [
+      {
+        title: 'quiz 1',
+        path: 'tok/quiz_1',
+        icon: <AiIcons.AiFillHome />
+      }
+    ]
+  },
+  {
+    title: 'Reference',
+    path: 'reference',
     icon: <IoIcons.IoIosPaper />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
