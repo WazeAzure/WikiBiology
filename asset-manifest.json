@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.eddbb6cf.css",
-    "main.js": "/static/js/main.9da8eb79.js",
+    "main.js": "/static/js/main.4ab41d39.js",
     "static/js/787.a3a31ebb.chunk.js": "/static/js/787.a3a31ebb.chunk.js",
     "static/media/ed-Copy.png": "/static/media/ed-Copy.d4666c774e3e412b8bd2.png",
     "static/media/pentingwoi.png": "/static/media/pentingwoi.62ada0006e7261bd73a4.png",
@@ -24,11 +24,11 @@
     "static/media/respirometer2.png": "/static/media/respirometer2.b785381d9866ec86aba9.png",
     "index.html": "/index.html",
     "main.eddbb6cf.css.map": "/static/css/main.eddbb6cf.css.map",
-    "main.9da8eb79.js.map": "/static/js/main.9da8eb79.js.map",
+    "main.4ab41d39.js.map": "/static/js/main.4ab41d39.js.map",
     "787.a3a31ebb.chunk.js.map": "/static/js/787.a3a31ebb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eddbb6cf.css",
-    "static/js/main.9da8eb79.js"
+    "static/js/main.4ab41d39.js"
   ]
 }
