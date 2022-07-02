@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.746316a9.css",
-    "main.js": "/static/js/main.b24558b9.js",
+    "main.css": "/static/css/main.c8889f8a.css",
+    "main.js": "/static/js/main.deeb59ee.js",
     "static/js/787.a3a31ebb.chunk.js": "/static/js/787.a3a31ebb.chunk.js",
     "static/media/ed-Copy.png": "/static/media/ed-Copy.d4666c774e3e412b8bd2.png",
     "static/media/pentingwoi.png": "/static/media/pentingwoi.62ada0006e7261bd73a4.png",
@@ -23,12 +23,12 @@
     "static/media/labwork.png": "/static/media/labwork.8cadb62daac02c6695a7.png",
     "static/media/respirometer2.png": "/static/media/respirometer2.b785381d9866ec86aba9.png",
     "index.html": "/index.html",
-    "main.746316a9.css.map": "/static/css/main.746316a9.css.map",
-    "main.b24558b9.js.map": "/static/js/main.b24558b9.js.map",
+    "main.c8889f8a.css.map": "/static/css/main.c8889f8a.css.map",
+    "main.deeb59ee.js.map": "/static/js/main.deeb59ee.js.map",
     "787.a3a31ebb.chunk.js.map": "/static/js/787.a3a31ebb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.746316a9.css",
-    "static/js/main.b24558b9.js"
+    "static/css/main.c8889f8a.css",
+    "static/js/main.deeb59ee.js"
   ]
 }
