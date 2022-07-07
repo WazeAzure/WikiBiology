@@ -35,10 +35,11 @@ function TopCommentBox(props){
 
   const sendComment = (event) => {
     event.preventDefault();
-    fetch("/new-comment", {
+    const username = localStorage.getItem('user');
+    fetch("https://wiki-biology-backend.herokuapp.com/new-comment", {
       method: "POST",
       headers: {"Content-Type": "application/json"},
-      body: JSON.stringify({messageData: message.current.value})
+      body: JSON.stringify({user: username, messageData: message.current.value})
     }).then(() => {
       // reset entire comments and matching increment counter
       setMessageReset(prevState => !prevState);

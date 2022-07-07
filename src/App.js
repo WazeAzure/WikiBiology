@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Route, Routes, useParams } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, useParams, HashRouter } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
@@ -13,8 +13,7 @@ import DetailMaterials from './pages/DetailMaterials';
 
 function App(){
   return(
-    <BrowserRouter style={{margin: "none", padding: "none"}}>
-      <Navbar />
+    <HashRouter style={{margin: "none", padding: "none"}}>
       <Routes>
         <Route exact path='/'  element={<Home />} />
         <Route path='/materials' element={<Materials />} />
@@ -23,8 +22,7 @@ function App(){
         <Route path='/signin' element={<Signin />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
-      <Footer />
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

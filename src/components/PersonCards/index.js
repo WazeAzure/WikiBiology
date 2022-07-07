@@ -3,7 +3,7 @@ import { PersonData, Person } from './PersonData';
 
 function PersonCards(props){
   return(
-    <div style={{display: "flex"}}>
+    <div style={{display: "flex", width: "auto", justifyContent: "space-around"}}>
       {PersonData.map((item) => (
         <Person item={item}/>
       ))}

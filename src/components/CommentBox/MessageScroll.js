@@ -15,9 +15,11 @@ function MessageScroll(){
   const [showBottomBar, setShowBottomBar] = useState(true);
 
   // load up the first 10 comments. Do this either on application start or when a new comment is posted
+  // "mongodb://localhost:27017/WikiBiologyComment"
+  //mongodb://admin:admin@ac-xcb6fsi-shard-00-00.vmnjmd8.mongodb.net:27017,ac-xcb6fsi-shard-00-01.vmnjmd8.mongodb.net:27017,ac-xcb6fsi-shard-00-02.vmnjmd8.mongodb.net:27017/WikiBiologyComment?ssl=true&replicaSet=atlas-1dao57-shard-0&authSource=admin&retryWrites=true&w=majority
   useEffect(() => {
     setShowBottomBar(true);
-    fetch("/get-data", {
+    fetch("https://wiki-biology-backend.herokuapp.com/get-data", {
       method: "POST",
       headers: {"Content-Type": "application/json"},
       body: JSON.stringify({limitNum:10})
@@ -31,7 +33,7 @@ function MessageScroll(){
   const observer = React.useRef(new IntersectionObserver(entries => {
     const first = entries[0];
     if(first.isIntersecting){
-      fetch("/get-more-data", {
+      fetch("https://wiki-biology-backend.herokuapp.com/get-more-data", {
         method: "POST",
         headers: {"Content-Type":"application/json"},
         body: JSON.stringify({commentIncrement: commentIncrementRef.current})
