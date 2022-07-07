@@ -9,10 +9,22 @@ import './PersonCard.css';
 
 export const PersonData = [
   {
-    name: "Opik Prasetyo",
-    quotes: "Hope you enjoy the journey to learn biology with us",
+    name: "Opik Prasetyo, S.Pd.",
+    quotes: "Mahasiswa Magister Pendidikan Biologi, Universitas Sebelas Maret",
     avatar: require("./opik2.jpg"),
     sosmed: ['085345871185', 'opikprasetyo@student.uns.ac.id', 'https://id.linkedin.com/in/opik-prasetyo-b36234230/en?trk=people-guest_people_search-card']
+  },
+  {
+    name: "Dr. Bowo Sugiharto , S.Pd., M.Pd.",
+    quotes: "Dosen Pembimbing",
+    avatar: require("./Bowo.jpeg"),
+    sosmed: ["","",""]
+  },
+  {
+    name: "Dr. Baskoro Adi Prayitno, S.Pd., M.Pd",
+    quotes: "Dosen Pembimbing",
+    avatar: require("./Baskoro.jpeg"),
+    sosmed: ["","",""]
   }
 ]
 

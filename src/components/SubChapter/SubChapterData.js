@@ -5,7 +5,7 @@ export const SubChapterData = [
     checkpoint: "introduction",
     val:[{
         type: "h1",
-        val: ["Cel Respiration"]
+        val: ["Cell Respiration"]
       },
       {
         type: "h2",
@@ -414,6 +414,10 @@ export const SubChapterData = [
           src: require("./diagram.png"),
           sub: ""
         }]
+      },
+      {
+        type: "vid",
+        val: <iframe width="560" height="315" src="https://www.youtube.com/embed/oL7C9_3biZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       }
     ]
   }

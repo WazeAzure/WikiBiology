@@ -1,5 +1,6 @@
 * {
   text-decoration: none;
+  -webkit-print-color-adjust: exact !important;
 }
 
 /* Message Scroll */
@@ -28,3 +29,53 @@
     transform: rotate(360deg);
   }
 }
+
+/* Start SIGNIN PAGE */
+.signin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signin-container {
+  height: 80%;
+  display: grid;
+  grid-template-columns: auto 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.signin-left {
+  padding: 2rem 4rem;
+  background-color: rgba(61,61,144,1);
+  color: white;
+}
+
+.signin-left a {
+  color: white;
+  text-decoration: underline;
+}
+
+.signin-right {
+  padding: 2rem 4rem;
+}
+
+.signin-right form {
+  width: 90%;
+}
+
+.signin-right form input[type="text"], input[type="password"] {
+  display: block;
+  width: inherit;
+  outline: none;
+  border: 1px solid lightgrey;
+  padding: 0.5rem 0.5rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  background-color: transparent;
+}
+
+.signin-right form {
+
+}
+/* END SIGNIN PAGE */
